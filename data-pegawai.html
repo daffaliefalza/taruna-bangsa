@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Data Pegawai</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+     <!-- header start -->
+    <header>
+        <nav>
+            <div class="nav-header">
+                <div class="logo">
+                    <h3>SMK TARUNA BANGSA</h3>
+                </div>
+                <button class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <ul class="links">
+                <a href="./index.html">BERANDA</a>
+                <a href="./tentang.html">TENTANG KAMI</a>
+                <a href="./data-pegawai.html">LIHAT DATA PEGAWAI</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header end -->
+
+    <div class="table-container" style=" overflow-x: auto; height: 100%;">
+        <h4>DATA PEGAWAI SMK TARUNA BANGSA</h4>
+        <hr>
+        <a href="#" class="btn-kembali">KEMBALI</a>
+        <a href="#" class="btn-tambah">TAMBAH DATA</a>
+        <a href="#" class="btn-cetak">CETAK DATA</a>
+
+        <table class="table-data">
+            <!-- kolom judul -->
+            <tr>
+                <th>No.</th>
+                <th>NIP</th>
+                <th>Nama Lengkap</th>
+                <th>Jenis Kelamin</th>
+                <th>Tempat Lahir</th>
+                <th>Tanggal Lahir</th>
+                <th>Alamat</th>
+                <th>No Telpon</th>
+                <th>Jabatan</th>
+                <th>Aksi</th>
+            </tr>
+
+            <!-- kolom data -->
+            <tr>
+                <td>1</td>
+                <td>20220101</td>
+                <td>Rayhan Wahyudin Ratu Lolly</td>
+                <td>Laki - Laki</td>
+                <td>Jakarta</td>
+                <td>2001-11-01</td>
+                <td>Vila Indah Permai Blok E16</td>
+                <td>081219236130</td>
+                <td>Asisten</td>
+                <td>
+                    <button class="warning">EDIT</button>
+                    <button class="danger">HAPUS</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>20220101</td>
+                <td>Mochamad Lutfi</td>
+                <td>Laki - Laki</td>
+                <td>Jakarta</td>
+                <td>2001-11-01</td>
+                <td>Vila Indah Permai Blok E16</td>
+                <td>081219236130</td>
+                <td>Guru Jaringan Komputer</td>
+                <td>
+                    <button class="warning">EDIT</button>
+                    <button class="danger">HAPUS</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>20220101</td>
+                <td>Maieka</td>
+                <td>Perempuan</td>
+                <td>Jakarta</td>
+                <td>2001-11-01</td>
+                <td>Vila Indah Permai Blok E16</td>
+                <td>081219236130</td>
+                <td>Guru</td>
+                <td>
+                    <button class="warning">EDIT</button>
+                    <button class="danger">HAPUS</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+     <footer>
+            &copy; 2022 SMK TARUNA BANGSA
+        </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>

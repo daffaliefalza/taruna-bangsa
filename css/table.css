@@ -1,0 +1,70 @@
+.table-container {
+    margin-left: 10px !important;
+}
+
+.table-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.btn-kembali {
+    background-color: rgb(73, 80, 63);
+}
+
+.btn-tambah {
+    background-color: rgb(78, 188, 78);
+}
+
+.btn-cetak {
+    background-color: red;
+}
+
+table {
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+
+th, td {
+  padding: 15px;
+}
+
+.warning,.danger {
+    color: #fff;
+    padding: 1em;
+    border: 0;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.warning {
+    background-color: orange;
+}
+
+.warning:hover {
+    background-color: rgb(165, 108, 2);
+}
+
+.danger {
+    background-color: red;
+}
+
+.danger:hover {
+    background-color: rgb(198, 2, 2);
+}
+
